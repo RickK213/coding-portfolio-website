@@ -1,0 +1,56 @@
+body {
+    padding-top: 70px;
+}
+#home {
+    padding-top: 0;
+}
+#home .jumbotron h1 {
+    padding-top: 40px;
+}
+.pull-left {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.pull-right {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.figure-caption {
+    font-size: 12px;
+    padding: 5px 0 0 5px;
+}
+footer {
+    text-align: center;
+    padding-top: 1em;
+    margin-top: 1em;
+    border-top: 1px dotted #ddd;
+}
+@media (max-width: 768px) {
+    .nav button {
+        margin-left: 15px;
+    }
+    #home .jumbotron {
+        padding-top: 60px;
+    }
+}
+.jumbotron {
+    background: url("../images/jumbotrton_bg.jpg");
+    color: #fff;
+    text-shadow: 2px 2px rgba(0,0,0,.5);
+}
+.jumbotron small {
+    color: #fff;
+}
+.jumbotron h2 {
+    font-size: 36px;
+    line-height: 48px;
+    color: #fff;
+}
+h1, h2, h3, .lead, .navbar-brand {
+    font-family: 'Merriweather', serif;
+    color: rgb(217, 83, 79);
+}
+.lead {
+    font-size: 20px;
+    color: slategrey;
+}
